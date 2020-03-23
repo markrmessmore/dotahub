@@ -1,6 +1,15 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Home from '../views/Home.vue'
+
+//COMPONENTS
+import About  from '@/components/about'
+import Home   from '@/components/home'
+
+//DATA FORMATTING COMPONENTS
+import Data       from '@/components/Data/data'
+import HeroData   from '@/components/Data/heroData'
+import ItemData   from '@/components/Data/itemData'
+import Output     from '@/components/Data/output'
 
 Vue.use(VueRouter)
 
@@ -10,13 +19,32 @@ const routes = [
     name: 'Home',
     component: Home
   },
+  //COMPONENT ROUTES
   {
-    path: '/about',
+    path: '/About',
     name: 'About',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
+    component: About
+  },
+  //DATA FORMATTING TOOLS
+  {
+    path: '/Data',
+    name: 'Data',
+    component: Data
+  },
+  {
+    path: '/HeroData',
+    name: 'HeroData',
+    component: HeroData
+  },
+  {
+    path: '/ItemData',
+    name: 'ItemData',
+    component: ItemData
+  },
+  {
+    path: '/Output',
+    name: 'Output',
+    component: Output
   }
 ]
 

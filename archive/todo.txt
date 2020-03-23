@@ -1,0 +1,43 @@
+Item Page:
+* Add components --> recipe in particular
+
+Add Roadmap to about page
+
+Heroes Page:
+* Spell Amp Calc
+* Ability portion --> convert/compress
+* Hero matchups/items
+
+Create hero builds page
+* level stats
+* item build
+* skill build -- need images
+* talent tree
+
+Add PWA features
+* add to home screen
+* email/share build
+
+DotaHub updates
+
+Change toolbars to match cards on home page
+
+PWA Checklist:
+https://developers.google.com/web/progressive-web-apps/checklist
+* Https:
+* Responsive
+* URLs load offline (Service worker)
+* Metadata for home screen
+* Load fast for slow networks
+* page transitions don't block
+* works cross browser
+* every page has a URL
+* Indexed by google
+* schema.org metadata
+* social metadata
+* canonical URLs
+* history api
+* sharable content
+* app prompts/pushes are not overboard
+* cache-first networking
+* user notified when offline
