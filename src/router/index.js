@@ -2,8 +2,10 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 
 //COMPONENTS
-import About  from '@/components/about'
-import Home   from '@/components/home'
+import About      from '@/components/about'
+import Build      from '@/components/build'
+import Home       from '@/components/home'
+import Roadmap    from '@/components/roadmap'
 
 //DATA FORMATTING COMPONENTS
 import Data       from '@/components/Data/data'
@@ -24,6 +26,16 @@ const routes = [
     path: '/About',
     name: 'About',
     component: About
+  },
+  {
+    path: '/Build',
+    name: 'Build',
+    component: Build
+  },
+  {
+    path: '/Roadmap',
+    name: 'Roadmap',
+    component: Roadmap
   },
   //DATA FORMATTING TOOLS
   {

@@ -8,23 +8,29 @@
                         DotaHub.us Data Tools
                     </v-card-title>
                     <v-container>
-                        <v-row align="center" justify="space-around" class="text-center">
-                            <v-btn height="200" width="200" outlined>
-                                <v-icon>fas fa-home</v-icon>
-                                            <br>
-                                            Hero
-                            </v-btn>
-                            <!-- <v-card height="200px" width="200px" outlined ripple>
+                        <v-row align="center" justify="space-around" no-gutters>
+                            <v-card height="150px" width="150px" outlined ripple to="/HeroData">
                                 <v-container fill-height>
-                                    <v-row>
-                                        <v-col class="subtitle-1">
-                                            <v-icon>fas fa-home</v-icon>
+                                    <v-row no-gutters>
+                                        <v-col cols="12" class="text-center">
+                                            <v-icon>fas fa-users</v-icon>
                                             <br>
-                                            Hero
+                                            Heroes
                                         </v-col>
                                     </v-row>
                                 </v-container>
-                            </v-card> -->
+                            </v-card>
+                            <v-card height="150px" width="150px" outlined ripple to="/ItemData">
+                                <v-container fill-height>
+                                    <v-row no-gutters>
+                                        <v-col cols="12" class="text-center">
+                                            <v-icon>fas fa-tools</v-icon>
+                                            <br>
+                                            Items
+                                        </v-col>
+                                    </v-row>
+                                </v-container>
+                            </v-card>
                         </v-row>
                     </v-container>
                 </v-card>
